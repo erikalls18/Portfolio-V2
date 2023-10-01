@@ -1,0 +1,398 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*Home*/
+
+.main-content-home{
+  margin-top: 50px;
+}
+.card-presentation{
+  
+  float:left;
+  width: 18%;
+  
+}
+.card-description{
+  background-color: #c4e1e9;
+  border-radius: 0.5rem;
+  margin-left: 20px;
+  text-align: center;
+  margin-top: 5px;
+  height: 400px;
+  padding: 5px;
+}
+.card-contact{
+  background-color: #c4e1e9;
+  border-radius: 0.5rem;
+  margin-left: 20px;
+  text-align: center;
+  margin-top: 5px;
+  height: 200px;
+  padding: 5px;
+  margin-top: 20px;
+  
+   
+}
+.img-contact{
+  margin-right: 15px;
+}
+
+
+
+.img-profile{
+  width: 180px; 
+  height: 180px; 
+  border-radius: 50%;
+  margin-top: 15px;
+  
+}
+
+/*CSS Navegacion*/
+.navbar-container{
+  /*position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  /*background: linear-gradient(to right, rgb(29, 28, 28),rgb(129, 3, 52) );*/
+  /*z-index: 2*/
+  float: left;
+  width: 80%;
+ 
+  margin-bottom: 100px;
+}
+
+.nav  ul{
+  list-style: none;
+}
+
+.navbar-container nav {
+  
+  width: 80%;
+  background-color: rgb(192, 196, 204);
+  padding: 3px;
+  margin-left: 100px;
+  border-radius: 0.5rem;
+  
+
+}
+
+.navbar-container nav ul{
+  text-align: left;
+}
+
+
+
+nav ul li {
+  font-size: 20px;
+}
+
+nav li{
+  display: inline-block;
+  margin-right: 10px;
+  list-style: none;
+ 
+ 
+
+}
+
+
+nav li a{
+  display: inline-block;
+  margin-right: 10px;
+  padding: 5px;
+  color: rgb(14, 13, 13);
+  text-decoration: none;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+
+a:visited{
+  color:rgb(29, 28, 26);
+}
+
+a:hover{
+  color: rgb(170, 12, 78);
+
+}
+
+a:active{
+  color:rgb(153, 11, 35);
+}
+
+nav ul:first-child {
+  margin-left: 1em;
+}
+
+/*About*/
+
+.about-container{
+  text-align: center;
+  margin-top: 50px;
+  color: rgb(2, 2, 2)
+  /*background: linear-gradient(to right, rgb(29, 28, 28),rgb(129, 3, 52) );*/
+  
+}
+
+.description{
+  width: 850px;
+  margin: auto;
+  text-align: justify;
+  font-size: 18px;
+  
+}
+
+.container-technologies{
+  margin: auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.container-soft-tech,
+.container-data-tech{
+  flex: 1; /* Distribuye el espacio disponible entre los contenedores */
+  border: 1px solid #ccc; 
+  margin: 10px;
+  text-align: center;
+  padding: 5px;
+  
+}
+
+
+.container-soft-tech{
+  display: inline-block;
+  opacity: 0; /* Inicialmente oculto */
+  white-space: nowrap; /* Evita saltos de línea */
+  overflow: hidden; /* Oculta el contenido que se desborda */
+  
+  
+}
+
+.container-data-tech{
+  display: inline-block;
+  opacity: 0; /* Inicialmente oculto */
+  white-space: nowrap; /* Evita saltos de línea */
+  overflow: hidden; /* Oculta el contenido que se desborda */
+ 
+  
+}
+
+/*CSS projects*/
+.container-projects{
+  margin-top: 100px;
+  /*background-color: #61dafb;*/
+  width: 80%;
+}
+.container-cards {
+  /*width: 80%;*/
+  margin: auto;
+  text-align: center;
+  width: 80%;
+  margin-top: 100px;
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: repeat(3, minmax(220px, 1fr));
+ 
+ 
+}
+
+.card-project {
+  box-sizing: border-box;
+ /* background: rgb(243, 216, 216);*/
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  transition: transform 0.3s ease;
+  max-width: 90%;
+  /*height: auto;
+  margin: auto;*/
+ 
+}
+.card-project:hover {
+  transform: scale(1.1);
+ 
+}
+
+
+.container-projects{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+ /* min-height: 100vh;*/
+  flex: 1;
+ 
+  margin-bottom: 60px;
+  
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.img-card {
+  width: 100%;
+  /*width: 500px;*/
+  margin-top: 10px;
+  object-fit: cover;
+ /* border-radius: 0.5rem;*/
+  border:solid 1px;
+  /*margin-left: 8px;*/
+}
+
+/*CSS Modal*/
+
+.img-card-modal {
+  width: 60%;
+  margin-top: 10px;
+  object-fit: cover;
+  margin:auto;
+  
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+ 
+}
+
+.modal-content {
+  background-color: white;
+  width: 50%; /* Ocupa el 50% del ancho de la pantalla */
+  height: 70%;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+  overflow: auto;
+  text-align: justify;
+  
+}
+.button-details{
+ /*margin-left: 25px;*/
+ width: 100%;
+ padding: 8px;
+ background-color: rgb(126, 63, 82);
+ color: white;
+ font-size: 17px;
+ border-radius: 0.5rem;
+
+}
+
+.close-modal{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgb(126, 63, 82);
+  color: white;
+}
+
+.button-source{
+  margin: auto;
+  padding: 12px;
+  background-color: rgb(126, 63, 82);
+  color: white;
+ font-size: 17px;
+ border-radius: 0.5rem;
+}
+.description-modal{
+  font-size: 16px;
+  justify-content:center;
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+
+}
+.message{
+  font-style: italic;
+  font-size: 15px;
+  margin-top: 15px;
+ 
+}
+
+.tittle-project-modal{
+  margin: auto;
+}
+
+/*.img-carrusel{
+  
+  max-width: 30%; 
+  max-height: 40%;
+  margin-top: 10px;
+  margin: auto;
+  text-align: center;
+
+  
+}*/
+.carrusel{
+  text-align: center;
+}
+/*CCS Contact*/
+
+.container-contact{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  flex: 1;
+  
+}
+
+.contact-container{
+  text-align: center;
+  margin-top: 150px;
+  font-size: 22px;
+}
+
+.img-contact{
+  margin-right: 15px;
+}
+
