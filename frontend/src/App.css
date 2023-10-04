@@ -7,94 +7,17 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-/*Home*/
-
-.main-content-home{
-  margin-top: 50px;
-}
-.card-presentation{
-  
-  float:left;
-  width: 18%;
-  
-}
-.card-description{
-  background-color: #c4e1e9;
-  border-radius: 0.5rem;
-  margin-left: 20px;
-  text-align: center;
-  margin-top: 5px;
-  height: 400px;
-  padding: 5px;
-}
-.card-contact{
-  background-color: #c4e1e9;
-  border-radius: 0.5rem;
-  margin-left: 20px;
-  text-align: center;
-  margin-top: 5px;
-  height: 200px;
-  padding: 5px;
-  margin-top: 20px;
-  
-   
-}
-.img-contact{
-  margin-right: 15px;
-}
 
 
 
-.img-profile{
-  width: 180px; 
-  height: 180px; 
-  border-radius: 50%;
-  margin-top: 15px;
-  
-}
 
 /*CSS Navegacion*/
 .navbar-container{
-  /*position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  /*background: linear-gradient(to right, rgb(29, 28, 28),rgb(129, 3, 52) );*/
-  /*z-index: 2*/
+  
   float: left;
   width: 80%;
- 
-  margin-bottom: 100px;
+  margin-bottom: 40px;
+  text-align: center;
 }
 
 .nav  ul{
@@ -103,17 +26,19 @@
 
 .navbar-container nav {
   
-  width: 80%;
+  width: 70%;
   background-color: rgb(192, 196, 204);
   padding: 3px;
-  margin-left: 100px;
+  margin-left: 70px;
   border-radius: 0.5rem;
+  text-align: center;
   
 
 }
 
 .navbar-container nav ul{
   text-align: left;
+  text-align: center;
 }
 
 
@@ -124,8 +49,8 @@ nav ul li {
 
 nav li{
   display: inline-block;
-  margin-right: 10px;
   list-style: none;
+  margin-right: 20px;
  
  
 
@@ -134,7 +59,6 @@ nav li{
 
 nav li a{
   display: inline-block;
-  margin-right: 10px;
   padding: 5px;
   color: rgb(14, 13, 13);
   text-decoration: none;
@@ -157,94 +81,87 @@ a:active{
   color:rgb(153, 11, 35);
 }
 
-nav ul:first-child {
-  margin-left: 1em;
-}
+
 
 /*About*/
 
 .about-container{
   text-align: center;
-  margin-top: 50px;
-  color: rgb(2, 2, 2)
+  color: rgb(2, 2, 2);
   /*background: linear-gradient(to right, rgb(29, 28, 28),rgb(129, 3, 52) );*/
-  
+  margin-top: 50px;
+  width: 80%;
+  margin: auto;
 }
 
 .description{
-  width: 850px;
+  width: 70%;
   margin: auto;
   text-align: justify;
   font-size: 18px;
+  margin-bottom: 40px;
   
 }
 
 .container-technologies{
   margin: auto;
-  width: 80%;
-  display: flex;
-  justify-content: space-between;
-}
-.container-soft-tech,
-.container-data-tech{
-  flex: 1; /* Distribuye el espacio disponible entre los contenedores */
-  border: 1px solid #ccc; 
-  margin: 10px;
+  width: 60%;
   text-align: center;
-  padding: 5px;
-  
-}
-
-
-.container-soft-tech{
-  display: inline-block;
-  opacity: 0; /* Inicialmente oculto */
-  white-space: nowrap; /* Evita saltos de línea */
-  overflow: hidden; /* Oculta el contenido que se desborda */
-  
-  
-}
-
-.container-data-tech{
-  display: inline-block;
-  opacity: 0; /* Inicialmente oculto */
-  white-space: nowrap; /* Evita saltos de línea */
-  overflow: hidden; /* Oculta el contenido que se desborda */
+  margin-top: 30px;
  
   
+ 
+
+}
+
+
+
+.img-tech{
+  margin-top: 30px;
+  margin-right: 15px;
+  width: 80px;
+  height: 80px;
+  margin-top: 15px;
+}
+.img-looker, .img-bq, .img-mysql, .img-mongo{
+  margin-right: 10px;
+  margin-left: 15px;
+}
+.img-mysql{
+  margin-bottom: 5px;
 }
 
 /*CSS projects*/
 .container-projects{
-  margin-top: 100px;
-  /*background-color: #61dafb;*/
   width: 80%;
+  /*background-color: blueviolet;*/
+  text-align: center;
+  margin: auto;
+  
 }
 .container-cards {
   /*width: 80%;*/
   margin: auto;
   text-align: center;
-  width: 80%;
-  margin-top: 100px;
+  width: 70%;
+ /*background-color: aqua;*/
   display: grid;
-  grid-gap: 40px;
-  grid-template-columns: repeat(3, minmax(220px, 1fr));
- 
- 
+  grid-gap: 30px;
+  margin-left: 70px;
+  grid-template-columns: repeat(3, minmax(230px, 1fr));
 }
 
 .card-project {
   box-sizing: border-box;
  /* background: rgb(243, 216, 216);*/
-  padding: 10px;
+  padding: 2px;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
   text-align: center;
   transition: transform 0.3s ease;
   max-width: 90%;
-  /*height: auto;
-  margin: auto;*/
+
  
 }
 .card-project:hover {
@@ -259,7 +176,6 @@ nav ul:first-child {
   flex-direction: column;
  /* min-height: 100vh;*/
   flex: 1;
- 
   margin-bottom: 60px;
   
 }
@@ -396,3 +312,51 @@ nav ul:first-child {
   margin-right: 15px;
 }
 
+/*Home*/
+
+.main-content-home{
+  margin-top: 50px;
+  
+ 
+}
+.card-presentation{
+  
+  float:left;
+  width: 18%;
+
+  
+}
+.card-description{
+  background-color: #c4e1e9;
+  border-radius: 0.5rem;
+  margin-left: 20px;
+  text-align: center;
+  margin-top: 5px;
+  height: 400px;
+  padding: 5px;
+}
+.card-contact{
+  background-color: #c4e1e9;
+  border-radius: 0.5rem;
+  margin-left: 20px;
+  text-align: center;
+  margin-top: 5px;
+  height: 200px;
+  padding: 5px;
+  margin-top: 20px;
+  
+   
+}
+.img-contact{
+  margin-right: 15px;
+}
+
+
+
+.img-profile{
+  width: 180px; 
+  height: 180px; 
+  border-radius: 50%;
+  margin-top: 15px;
+  
+}

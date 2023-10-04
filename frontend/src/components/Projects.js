@@ -24,12 +24,8 @@ function Projects() {
     
      return (
        <div className="container-projects">
-        <h2 className="title-project">Applications  </h2>
-        
-
         <div className="container-cards">
 
-       
        {projects.map((project, id) => (
             <div key={project.id} className="card-project" onClick={() => openModal(project)}>
                  <h3 className='tittle-project'>{project.name}</h3>

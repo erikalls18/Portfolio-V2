@@ -1,4 +1,4 @@
-import About from "./About";
+
 import Nav from "./Nav";
 import Projects from "./Projects";
 function Home() {
@@ -7,11 +7,11 @@ function Home() {
         <div className="card-presentation">
             <div className="card-description">
                 <img src="/images/profile.jpg" width={200} height={200} className="img-profile" alt="profile" />
-            <div>
-                <p>Erika Leguizamon</p>
-                <p>Data Developer | Software developer</p>
-                <p>loremipsum</p>
-            </div>
+              <div>
+                  <p>Erika Leguizamon</p>
+                  <p>Data Developer | Software developer</p>
+                  <p>loremipsum</p>
+              </div>
             </div>
           
           <div className="card-contact">
@@ -27,14 +27,14 @@ function Home() {
                 <a href="mailto:erikalls18@hotmail.com">
                     <img src="/images/mail.png"width={30} height={30} className="img-contact" alt="java-logo"/>
                 </a>
+                
+          </div>
         
-        </div>
+
         </div>
 
       
         <Nav /> {/* Nav dentro del main-content-home */}
-      
-        <Projects/>
       </div>
     );
   }

@@ -8,7 +8,7 @@ var projects= [
 
 },
 {    "id": "2",
-    "name" : "GluControl",
+    "name" : "GluControl App",
     "image" :"/images/Screenshot_appG1C.png",
     "description": "This application is designed to allow users to efficiently store and retrieve blood sugar level data. It enables users to input and access personal information, including glucose levels and medications. The purpose of this app is to help users maintain a record of their levels over time, facilitating a better understanding of their progress.",
     "technologies": "Android Studio, Java  and Room",

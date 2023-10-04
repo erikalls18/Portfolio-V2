@@ -20,26 +20,26 @@ function About() {
 
       <div className="container-technologies">
           <div className="container-soft-tech">
-              <h3>Software development  technologies </h3>
-              <img src="/images/java-Logo.png" width={60} height={60} className="img-tech" alt="java-logo"/>
-              <img src="/images/python.png" width={200} height={120} className="img-python" alt="python"/>
-              <img src="/images/JavaScript_logo.png" width={70} height={60} className="img-tech" alt="java-logo"/>
+            
               <img src="/images/html-css.jpg" width={60} height={60} className="img-tech" alt="java-logo"/>
+              <img src="/images/JavaScript_logo.png" width={70} height={60} className="img-tech" alt="java-logo"/>  
               <img src="/images/nodejs-1-logo.png" width={60} height={60} className="img-tech" alt="java-logo"/>
-              <img src="/images/logo192.png" width={100} height={80} className="img-react" alt="java-logo"/> 
+              <img src="/images/logo192.png" width={80} height={80} className="img-react" alt="java-logo"/> 
               <img src="/images/resApi.png" width={100} height={80} className="img-api" alt="java-logo"/>
-              <img src="/images/git-logo.png" width={100} height={90} className="img-git" alt="java-logo"/>
+              <img src="/images/java-Logo.png" width={20} height={200} className="img-tech" alt="java-logo"/>
+              
+              
               
           </div>
 
           <div className="container-data-tech">
-              <h3>Data technologies </h3>
+           
+              <img src="/images/python.png" width={120} height={130} className="img-python" alt="python"/>
+              <img src="/images/bigquery_logo.png" width={120} height={90} className="img-bq" alt="java-logo"/>
+              <img src="/images/looker.png" width={130} height={130} className="img-looker" alt="java-logo"/>
+              <img src="/images/MongoDB-Logo.jpg" width={120} height={120} className="img-mongo" alt="java-logo"/>
+              <img src="/images/mysql-logo.png" width={100} height={100} className="img-mysql" alt="java-logo"/>
               
-              <img src="/images/bigquery_logo.png" width={140} height={90} className="img-bq" alt="java-logo"/>
-              <img src="/images/looker.png" width={170} height={120} className="img-looker" alt="java-logo"/>
-              <img src="/images/MongoDB-Logo.jpg" width={180} height={100} className="img-mongo" alt="java-logo"/>
-              <img src="/images/mysql-logo.png" width={160} height={80} className="img-mysql" alt="java-logo"/>
-              <img src="/images/airflow.png" width={160} height={80} className="img-airflow" alt="java-logo"/>
           </div>
 
 
