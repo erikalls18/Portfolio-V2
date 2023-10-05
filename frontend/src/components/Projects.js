@@ -60,7 +60,7 @@ function Projects() {
           
         </div>
       )}
-    <p className="message">More Coming Soon...</p>
+    
     </div>
     
      );

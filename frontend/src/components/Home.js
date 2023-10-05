@@ -10,23 +10,40 @@ function Home() {
               <div>
                   <p>Erika Leguizamon</p>
                   <p>Data Developer | Software developer</p>
-                  <p>loremipsum</p>
+                  <img src="/images/location.png" width={32} height={30} className="img-location" alt="location-logo" />Vancouver, BC.
+                  
+                  <div className="list-languages">
+                  <h4 className="subtitle-lang"> Programming Languages</h4>
+                  <ul>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>JavaScript</li>
+                    <li>SQL</li>
+                  </ul>
+                  </div>
+                  
               </div>
             </div>
           
           <div className="card-contact">
-            <p>Contact me!</p>
-            <a href="https://www.linkedin.com/in/erika-leguizamón/">
-                    <img src="/images/linkedin.png" width={30} height={30} className="img-contact" alt="java-logo"/>
-                </a>
+            <h4 className="subtitle-contact" >Contact Info</h4>
+            <a href="https://www.linkedin.com/in/erika-leguizamón/" target="_blank">
+                <img src="/images/linkedin.png" width={32} height={30} className="img-contact" alt="linkedin-logo" />/in/erika-leguizamón
+            </a>
+            <br></br>
 
-                <a href="https://github.com/erikalls18">
-                    <img src="/images/git-logo.png" width={30} height={30} className="img-contact" alt="java-logo"/>
-                </a>
+            <a href="https://github.com/erikalls18" target="_blank">
+                <img src="/images/git-logo.png" width={30} height={30} className="img-contact" alt="github-logo"/>github.com/erikalls18
+            </a>
+            <br></br>
+            
+            <a href="mailto:erikalls18@hotmail.com" >
+                <img src="/images/mail.png" width={30} height={30} className="img-contact2" alt="mail-logo"/>erikalls18@hotmail.com
+            </a>
+            <br></br>
                 
-                <a href="mailto:erikalls18@hotmail.com">
-                    <img src="/images/mail.png"width={30} height={30} className="img-contact" alt="java-logo"/>
-                </a>
+                
+              
                 
           </div>
         
