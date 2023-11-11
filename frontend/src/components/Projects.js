@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
-
 const projects = require("./ListProjects.js"); 
 function Projects() {
 
@@ -19,17 +18,22 @@ function Projects() {
     setModalOpen(false);
   };
   const handleSource = () => {
-    window.open("https://github.com/erikalls18/FullStack-Applicaction/tree/master/finalproject3600", "_blank"); 
+    window.open(selectedProject.link, "_blank"); 
   };
     
      return (
        <div className="container-projects">
+        <h2 className="title-project">Applications  </h2>
+        
+
         <div className="container-cards">
 
+       
        {projects.map((project, id) => (
             <div key={project.id} className="card-project" onClick={() => openModal(project)}>
-                 <h3 className='tittle-project'>{project.name}</h3>
+                 
                 <img src={project.image} alt={project.name}className="img-card" />
+                <p className='tittle-project'>{project.name}</p>
                {/*<button onClick={() => openModal(project)}  className="button-details"> Show Details</button>*/}
             </div>
             ))}
@@ -54,15 +58,16 @@ function Projects() {
             
             <p className="description-modal">{selectedProject.description}</p>
             <p className='card-tech-modal'><strong>Technologies used:</strong> {selectedProject.technologies}</p>
-            <button  className="button-source"onClick={handleSource} >Source</button>
-            <button onClick={closeModal} className="close-modal">X</button>
+            <div className='container-buttons'>
+              <button  className="button-source"onClick={handleSource} >Source</button>
+              <button onClick={closeModal} className="close-modal">Close</button>
+            </div>
           </div>
           
         </div>
       )}
-    
+    <p className="message">More Coming Soon...</p>
     </div>
-    
      );
  }
  

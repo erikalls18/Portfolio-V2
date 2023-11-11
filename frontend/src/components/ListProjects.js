@@ -19,7 +19,7 @@ var projects= [
     "name" : "Portfolio",
     "image" :"/images/portfolio.png",
     "description": "This webpage serves as a comprehensive display of my primary background, skills, and projects. Here, you will find  an accurated collection that showcases my professional journey, highlighting my areas of expertise and the projects I've undertaken. Explore my portfolio to gain a deeper understanding of my experience and the value I can bring to various endeavors.",
-    "technologies": "HTML,CSS, JavaScript and React"
+    "technologies": "HTML,CSS, JavaScript, Nodejs and React"
     
 
 

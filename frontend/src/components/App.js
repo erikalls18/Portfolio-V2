@@ -8,6 +8,7 @@ import About from "./About";
 //mport Footer from "./footer";
 import Projects from "./Projects";
 //import Contact from "./Contact";
+import Work from "./Work";
 
 function App() {
     {
@@ -19,6 +20,9 @@ function App() {
          
           <Route path="/projects" element={<Projects />}/>
           <Route path="/" element={<About />}/>
+          <Route path="/work" element={<Work />}/>
+         
+       
        
         </Routes>
       

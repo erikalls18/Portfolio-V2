@@ -19,7 +19,7 @@ function NavBar() {
           </li>
 
           <li >
-            <NavLink to="/projects" className="nav-link">Work</NavLink>
+            <NavLink to="/work" className="nav-link">Work</NavLink>
           </li>
 
         </ul>
