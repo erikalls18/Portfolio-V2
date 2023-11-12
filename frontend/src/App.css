@@ -115,7 +115,9 @@ a:active{
   margin-top: 30px;
 
 }
-
+.links{
+  font-size: 12px;
+}
 
 
 .img-tech{
@@ -311,7 +313,7 @@ a:active{
   margin-left: 20px;
   text-align: center;
   margin-top: 5px;
-  height: 500px;
+  height: fit-content;
   padding: 5px;
   color: white;
   
@@ -324,7 +326,7 @@ a:active{
   margin-left: 20px;
   text-align: left;
   margin-top: 5px;
-  height: 200px;
+  height: fit-content;
   padding: 5px;
   margin-top: 20px; 
 }
@@ -945,12 +947,13 @@ a:active{
     font-size: 12px;
   }
 
+   /*Modal*/
   .button-details, .button-source, .close-modal {
     font-size: 15px;
     padding: 6px;
   }
   
-  /*Modal*/
+ 
   .description-modal, .card-tech-modal {
     font-size: 13px;
     margin-left: 10px;
